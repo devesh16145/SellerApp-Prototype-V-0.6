@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom styles here */
+.container {
+  @apply max-w-4xl;
+}
+
+/* REMOVING POTENTIALLY CONFLICTING STYLES */
+/* .bar-container {
+    @apply w-8 flex flex-col items-center;
+} */
+
+/* .bar {
+  @apply w-full rounded-t-lg;
+} */
+
+.day-label {
+  @apply text-xs text-gray-600 mt-1;
+}
